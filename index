@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Game Title Here</title>
+  <title>RKD Breakthrough</title>
 
   <!-- p5.js library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
@@ -18,7 +18,7 @@
 </head>
 <body>
   <!-- Your game's main script file -->
-  <script src="sketch.js"></script>
+  <script src="BreakthroughRKD.js"></script>
 
   <!-- Additional JavaScript files (if you have any) -->
   <script src="other-file.js"></script>
