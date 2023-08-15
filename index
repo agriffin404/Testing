@@ -18,7 +18,7 @@
 </head>
 <body>
   <!-- Your game's main script file -->
-  <script src="BreakthroughRKD.js"></script>
+  <script src="RKD_Breakthrough.js"></script>
 
   <!-- Additional JavaScript files (if you have any) -->
   <script src="other-file.js"></script>
