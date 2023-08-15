@@ -8,9 +8,6 @@
 
   <!-- p5.js library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-  
-  <!-- p5.sound addon (if you need sound) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
 
   <!-- Your own CSS file (if you have one) -->
   <link rel="stylesheet" href="styles.css">
@@ -19,10 +16,6 @@
 <body>
   <!-- Your game's main script file -->
   <script src="RKD_Breakthrough.js"></script>
-
-  <!-- Additional JavaScript files (if you have any) -->
-  <script src="other-file.js"></script>
-  <script src="another-file.js"></script>
 
 </body>
 </html>
