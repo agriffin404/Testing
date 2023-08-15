@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>S</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Game Title Here</title>
+
+  <!-- p5.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  
+  <!-- p5.sound addon (if you need sound) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+
+  <!-- Your own CSS file (if you have one) -->
+  <link rel="stylesheet" href="styles.css">
+  
 </head>
-
 <body>
+  <!-- Your game's main script file -->
+  <script src="sketch.js"></script>
 
-<!-- Feel free to change this text here -->
-<p>
-
-</p>
-<p>
-
-</p>
+  <!-- Additional JavaScript files (if you have any) -->
+  <script src="other-file.js"></script>
+  <script src="another-file.js"></script>
 
 </body>
 </html>
