@@ -200,6 +200,13 @@ class Ball {
     if (this.y < 10 + this.radius) {
       this.speedY = -this.speedY;
     }
+	  if (this.x < 10 + this.radius || this.x > width - 10 - this.radius) {
+  this.speedX = -this.speedX;
+  // Add a small random value to speedX to make the bounce less predictable
+  this.speedX += random(-1, 1);
+  // Keep the ball within the bounds of the screen
+  this.x = constrain(this.x, 10 + this.radius, width - 10 - this.radius);
+}
   }
 
   bounceOffPaddle(paddle) {
